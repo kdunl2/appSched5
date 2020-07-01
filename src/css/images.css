@@ -14,11 +14,11 @@
   
   }
   .carrotRight{
-    width: 9%;
+    width: 8vw;
   
   }
   .carrotLeft{
-    width: 9%;
+    width: 8vw;
     transform: rotate(180deg);
     margin-right: 37%;
   

@@ -6,6 +6,8 @@
   
   .styleText{
     top: 59px;
+    font-size: 1.9em !important;
+
   
   }
   .styleText .text-wrapper{
@@ -13,10 +15,11 @@
   }
   
   .hairstyleContainer{
-    width: 100%;
     height: 431px;
     position: relative;
     top: 13px;
+    margin: auto;
+    width: 100%;
   }
   
   .hairstyle{

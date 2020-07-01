@@ -2,7 +2,7 @@
 
 .slide-left{
     position: relative;
-    left: 89%;
+    left: 85%;
     animation: slideIn 1s forwards;
     top: 173px;
   }

@@ -81,8 +81,12 @@ class InputAppointment extends React.Component {
         if(document.querySelector(".filepond--root") !== null){
             document.querySelector(".filepond--root").remove()
         }
+console.log(this.state.newDate)
+console.log(this.state.changePage)
+console.log(this.state.sizePage)
 
-        if(this.state.changePage === true || this.state.sizePage === true ){
+        if(this.state.changePage === true  || this.state.sizePage === true ){
+            debugger
             var textWrapper2 = document.querySelector('.ml9 .letters');
             textWrapper2.innerHTML = textWrapper2.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
@@ -174,7 +178,7 @@ class InputAppointment extends React.Component {
                 newDate: !this.state.newDate
                 
             })
-        }, 1000);
+        }, 1300);
       }
 
 
@@ -192,7 +196,7 @@ class InputAppointment extends React.Component {
                 newDate: !this.state.newDate
                 
             })
-        }, 1000);
+        }, 1300);
       }
 
 
@@ -203,7 +207,7 @@ render(){
     console.log(this.state);
     // console.log(newDate.getDate());
     return(
-        <Fragment>
+        <div>
         <h1 className = "text-center mt-5 title">New Appointment</h1>
         <form>
             {this.state.selectStyle?
@@ -413,7 +417,7 @@ render(){
             <div className="styleContainer">
                 <h1 class="ml9 styleText">
                     <span class="text-wrapper">
-                        <span class="letters">What are you looking to get done?</span>
+                        <span class="letters">What style are you looking for?</span>
                     </span>
                 </h1>
                 <div className = "hairstyleContainer">
@@ -445,7 +449,7 @@ render(){
 }
 
         </form>
-        </Fragment>
+        </div>
     )
     }
 }
