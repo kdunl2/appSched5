@@ -4,7 +4,11 @@
     text-align: center;
 }
 
-
+input[type=text]:focus {
+    background: hotpink;
+    opacity: .3;
+    border: 3px solid #555;
+  }
     .name{
     width: 230px;
     height: 32px;
@@ -24,7 +28,7 @@
   .moveOn{
     position: relative;
     top: 250px;
-    left: 128px;
+    color: deeppink;
   
   }
 

@@ -4,7 +4,7 @@
     width: 26%;
     float: right;
     position: relative;
-    top: 443px;  
+    top: 355px;  
   }
   
   .carrotDiv{
@@ -14,11 +14,11 @@
   
   }
   .carrotRight{
-    width: 8vw;
+    width: 6vw;
   
   }
   .carrotLeft{
-    width: 8vw;
+    width: 6vw;
     transform: rotate(180deg);
     margin-right: 37%;
   

@@ -146,6 +146,7 @@ console.log(this.state.sizePage)
             changed: true,
             
         })
+        debugger
         setTimeout(() => {
             this.setState({
                 setApptDay: true
