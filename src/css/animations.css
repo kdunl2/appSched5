@@ -116,6 +116,7 @@
     background-color: #666666;
     text-shadow: 1px 4px 4px #555;
     text-align: center;
+    background-clip: text;
     -webkit-background-clip: text;
       -moz-background-clip: text;
   }
