@@ -98,7 +98,7 @@ class InputAppointment extends React.Component {
                 opacity: 0,
                 duration: 1000,
                 easing: "easeOutExpo",
-                delay: 3000
+                delay: 4000
                 });
         }
 // Create a multi file upload component
@@ -211,8 +211,8 @@ render(){
             
         {this.state.changePage ?
         <div>
-        <h1 class="ml9 avail">
-        <span class="text-wrapper">
+        {/* <h1 class="ml9 avail">
+        <span class="text-wrapper availCheck">
             <span class="letters">When are you availible?</span>
             
         </span>
@@ -251,7 +251,7 @@ render(){
                 <div class="loader">Loading...</div>
             </div>
             
-        }
+        } */}
             
         </div>
         :
@@ -291,7 +291,7 @@ render(){
                         {this.state.setApptDay ? 
                                     <div>
                                     <h1 class="ml9 avail">
-                                    <span class="text-wrapper">
+                                    <span class="text-wrapper availCheck">
                                         <span class="letters">When are you availible?</span>
                                         
                                     </span>

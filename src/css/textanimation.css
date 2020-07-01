@@ -1,3 +1,5 @@
+@media only screen and (max-width: 600px) {
+
 .ml9 {
     position: relative;
     font-weight: 200;
@@ -12,8 +14,8 @@
     padding-right: 0.05em;
     padding-bottom: 0.1em;
     overflow: hidden;
-    left: 60px;
-    bottom: 40px;
+    text-align: center;
+    bottom: 109px;
   
   }
   
@@ -22,4 +24,4 @@
     display: inline-block;
     line-height: 1em;
   }
-  
+}
