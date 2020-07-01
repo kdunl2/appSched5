@@ -1,0 +1,48 @@
+.slide-left{
+    position: relative;
+    left: 89%;
+    animation: slideIn 1s forwards;
+    top: 173px;
+  }
+
+  @keyframes slideIn {
+    0% {
+      transform: translateX(0px);
+    }
+    100% {
+      transform: translateX(-85%);
+    }
+  }
+  
+  .slideOut{
+    animation: slideOut .6s forwards;
+  }
+  
+  @keyframes slideOut {
+    0% {
+      transform: translateX(0px);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  .dJfBbk{
+    position: relative;
+    left: 371px;
+    top: 30px;
+    animation: slideIn2 1s forwards;
+  }
+
+  @keyframes slideIn2 {
+    0% {
+      transform: translateX(371px);
+    }
+    75% {
+      transform: translateX(-470px);
+    }
+    100%{
+      transform: translateX(-381px);
+    }
+  }
+  

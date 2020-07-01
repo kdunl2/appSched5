@@ -1,0 +1,39 @@
+.styleContainer{
+    text-align: center;
+  }
+  
+  .styleText{
+    top: 59px;
+  
+  }
+  .styleText .text-wrapper{
+    left: 0px;
+  }
+  
+  .hairstyleContainer{
+    width: 100%;
+    height: 431px;
+    position: relative;
+    top: 13px;
+  }
+  
+  .hairstyle{
+    background: green;
+    height: 60px;
+    position: relative;
+      top: 10px;
+      margin: 10px;
+      border-radius: 32px;
+  
+  }
+
+  .sizeContainer{
+    text-align: center;
+  
+  }  
+  .filepond--root{
+    position: relative;
+    top: 127px;
+    left: 78px;
+  }
+  

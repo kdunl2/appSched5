@@ -1,0 +1,25 @@
+.ml9 {
+    position: relative;
+    font-weight: 200;
+    font-size: 2em;
+    top: 125px;
+  }
+  
+  .ml9 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+    left: 60px;
+    bottom: 40px;
+  
+  }
+  
+  .ml9 .letter {
+    transform-origin: 50% 100%;
+    display: inline-block;
+    line-height: 1em;
+  }
+  

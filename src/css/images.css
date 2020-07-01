@@ -1,0 +1,25 @@
+.arrow{
+    width: 26%;
+    float: right;
+    position: relative;
+    top: 39px;
+  
+  }
+  
+  .carrotDiv{
+    text-align: center;
+    position: relative;
+      top: 3px;
+  
+  }
+  .carrotRight{
+    width: 9%;
+  
+  }
+  .carrotLeft{
+    width: 9%;
+    transform: rotate(180deg);
+    margin-right: 37%;
+  
+  
+  }

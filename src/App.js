@@ -1,26 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {Fragment} from 'react';
 import './App.css';
+import './css/animations.css';
+import './css/hstyle.css';
+import './css/images.css';
+import './css/name.css';
+import './css/pageSlides.css';
+import './css/schedule.css';
+import './css/textanimation.css';
+
+//components
+
+import InputAppointment from "./components/inputAppointment"
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  return <Fragment>
+    <div className="container">
+    <InputAppointment/>
+
     </div>
-  );
+  </Fragment>;
 }
 
 export default App;

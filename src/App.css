@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: myFirstFont;
+  src: url('./fonts/appoint.ttf');
+}
+
+.title{
+  font-family: myFirstFont;
+}
