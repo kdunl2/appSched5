@@ -10,3 +10,21 @@
 
   }
 }
+
+.travelTitle{
+    text-align: center;
+}
+
+.travelContainer{
+    text-align: center;
+    margin-right: 14px;
+    margin-top: 50px;
+}
+
+.travel{
+    margin-bottom: 25px;
+}
+
+.address{
+    top: 0px;
+}

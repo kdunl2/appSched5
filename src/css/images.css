@@ -6,6 +6,10 @@
     position: relative;
     top: 355px;  
   }
+
+  .arrow2{
+    top: 26px;
+  }
   
   .carrotDiv{
     text-align: center;
