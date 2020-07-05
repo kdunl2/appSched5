@@ -7,12 +7,31 @@
     top: 173px;
   }
 
+  .slide-left2{
+    position: relative;
+    /* left: 85%; */
+    animation: slideIn3 1s forwards;
+    /* top: 173px; */
+  }
+
   @keyframes slideIn {
     0% {
       transform: translateX(0px);
     }
     100% {
       transform: translateX(-85%);
+    }
+  }
+
+  @keyframes slideIn3 {
+    0% {
+      transform: translateX(371px);
+    }
+    75% {
+      transform: translateX(-470px);
+    }
+    100%{
+      transform: translateX(-353px);
     }
   }
   

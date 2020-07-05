@@ -18,7 +18,7 @@
 .travelContainer{
     text-align: center;
     margin-right: 14px;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 .travel{
@@ -27,4 +27,6 @@
 
 .address{
     top: 0px;
+    left: 363px;
+    position: relative;
 }

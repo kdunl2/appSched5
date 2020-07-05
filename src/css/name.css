@@ -1,5 +1,11 @@
 @media only screen and (max-width: 600px) {
 
+.nameText.subText{
+    font-size: 12px;
+    bottom: 18px;
+    position: relative;
+}
+
 .nameContainer{
     text-align: center;
 }

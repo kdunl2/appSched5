@@ -117,12 +117,20 @@ console.log(this.state.sizePage)
             document.body.appendChild(pond.element);
         }
         if(this.state.changePage === true && this.state.selectStyle === true){
+            var latlng = {
+                lat: 40.684385,
+                lng: -73.917605
+              };
             var places = require('places.js');
             var placesAutocomplete = places({
               appId: 'plKOUM03P63W',
               apiKey: '0b2b76331435e46ae682874cbb54f4b8',
               container: document.querySelector('#address-input')
-            });
+            }).configure({
+                aroundLatLng: latlng.lat + ',' + latlng.lng, // 78 saratoga latitude longitude
+                aroundRadius: 17 * 1000, // 17km radius - 10 miles
+                type: 'address'
+              });
         }
     } 
 // FUNCTIONS \\
@@ -230,6 +238,10 @@ console.log(this.state.sizePage)
         }, 1300);
       }
 
+      address = () => {
+          document.querySelector('.address').classList.add('slide-left2');
+      }
+
 
 
 render(){
@@ -264,15 +276,13 @@ render(){
                 </div>
                 <div className ="travel">
                     <input id="toggle-heart2" type="checkbox"/>
-                    <label className= "heart heart2"  for="toggle-heart2" aria-label="like" onClick={this.nextInput}>❤</label>
+                    <label className= "heart heart2"  for="toggle-heart2" aria-label="like" onClick={this.address}>❤</label>
                     <label className="nameText" for="name">I need you to come to me!</label>
                     
                 </div>
-                <div className="slide-left address hide">
+                <div className=" address hide">
                 <label className="nameText" for="name">Address?</label>
-                <input type="text" id="name" name="name" className="name"/>
-                <input id="toggle-heart" type="checkbox"/>
-                <label className= "heart"  for="toggle-heart" aria-label="like" onClick={this.nextInput}>❤</label>
+                <label className="nameText subText" for="name">(If it does not come up then its too far for me to travel)</label>
                 <input type="search" id="address-input" placeholder="Where are we going?" />
 
             </div>
@@ -359,7 +369,7 @@ render(){
                                     <div>
                                     <h1 class="ml9 avail">
                                     <span class="text-wrapper availCheck">
-                                        <span class="letters">When are yhou availible?</span>
+                                        <span class="letters">When are you availible?</span>
                                         
                                     </span>
                                     
