@@ -369,7 +369,7 @@ render(){
                                     <div>
                                     <h1 class="ml9 avail">
                                     <span class="text-wrapper availCheck">
-                                        <span class="letters">When are you availible?</span>
+                                        <span class="letters">When are you available?</span>
                                         
                                     </span>
                                     
@@ -471,12 +471,12 @@ render(){
                             Small
                         </h1>
                     </div>
-                    <div class="box">
+                    <div class="box" onClick={this.getImage}>
                         <h1> 
                             Medium
                         </h1>
                     </div>
-                    <div class="box">
+                    <div class="box" onClick={this.getImage}>
                         <h1> 
                             Large
                         </h1>
