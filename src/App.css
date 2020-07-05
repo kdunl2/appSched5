@@ -45,6 +45,10 @@
 .title{
   font-family: myFirstFont;
   margin-top: 2rem!important;
+  color: #2c2c2c;
+  /* background-color: #d5d5d5; */
+  letter-spacing: 0.05em;
+  text-shadow: 1px 4px 0px #c3a3b6, 7px 7px 0px rgba(0, 0, 0, 0.2);
 }
 /* 
 html, body {
