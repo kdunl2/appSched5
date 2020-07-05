@@ -250,7 +250,7 @@ render(){
     console.log(this.state);
     // console.log(newDate.getDate());
     return(
-        <div>
+        <div className = "whole">
         <h1 className = "text-center mt-5 title">New Appointment</h1>
         <form>
             {this.state.selectStyle?
